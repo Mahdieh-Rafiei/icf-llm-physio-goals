@@ -1,0 +1,43 @@
+# Secrets
+.env
+.env.*
+
+# Data and outputs (never published)
+dataset/
+data/
+output/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.dta
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.json
+*.jsonl
+
+# Text, logs and documents
+*.txt
+!requirements.txt
+*.log
+*.md
+!/README.md
+*.doc
+*.docx
+*.pdf
+
+# Local-only files
+utils/local_providers.py
+requirements-local.txt
+
+# Python / Jupyter / OS / editor
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
