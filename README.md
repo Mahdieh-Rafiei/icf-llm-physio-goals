@@ -42,6 +42,7 @@ Physiotherapists document patient goals as short free-text statements in electro
 14_repeat_runs.py               Run-to-run stability (Table S12)
 15_fig_ehr_chapter_prevalence.py  Figure 2: ICF chapter prevalence in EHR Uni goals
 16_gptoss_sensitivity.py        Sensitivity analysis with gpt-oss:120b (Table S14)
+17_exact_miss_breakdown.py      Types of exact-match misses of llama4 (Table S16)
 run_all.py                      Run the Phase 1 steps in sequence
 scrape_icf_codes.py             Build the ICF code reference table (BfArM, ICF 2005, German version)
 utils/                          Data loading, embeddings, LLM calls and evaluation metrics
